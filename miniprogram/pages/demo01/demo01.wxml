@@ -1,0 +1,8 @@
+<!-- 主页 -->
+<view >
+      <image class="photo" mode="widthFix" src="https://pic.imgdb.cn/item/62a44e21094754312993e979.png"></image>
+ </view>
+ <view class="title">最近一周使用时间</view>
+ <view class="box"></view>
+
+<canvas canvas-id="columnCanvas" disable-scroll="true" class="canvas" ></canvas>

@@ -1,0 +1,33 @@
+/* pages/weather/weather.wxss */
+.toclick{
+
+    width: 40%!important;
+    background-color: #442769;
+    color: white;
+    font-weight: normal;
+  }
+  .photo{
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    /*z-index 较大的元素会覆盖较小的元素在上层进行显示*/
+    z-index:-1;
+} 
+  .content{
+    margin-top: 65vh;
+    width:750rpx;
+    height: 80rpx;
+    border-radius: 5px;
+    font-size: 36;
+    font-weight: bold;
+    line-height: 80rpx;
+    color: #0a0a0a;
+    text-align: center;
+ 
+  
+  }
+ 
+  .colorset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#4150d6
+  }

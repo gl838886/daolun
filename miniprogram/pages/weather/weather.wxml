@@ -1,0 +1,18 @@
+<view >
+      <image class="photo" mode="widthFix" src="https://pic.imgdb.cn/item/62a448c909475431298c66db.png"></image>
+ </view>
+<view  class= "content">
+     <view>
+       <label>
+         <text >当前温度：{{wendu}}°C</text>
+       </label>
+     </view>
+     <view>
+       <label >
+         <text>当前湿度：{{shidu}} %</text>
+       </label>
+     </view> 
+     <button class="toclick" bindtap="click" >显示温湿度</button>
+     <view  class="colorset">{{data}}</view>   
+</view>
+<!-- <canvas canvas-id="myCanvas" class="timeh"></canvas> -->

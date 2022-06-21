@@ -1,0 +1,44 @@
+{
+  "pages": [
+   "pages/weather/weather", 
+    "pages/music/music", 
+    "pages/demo01/demo01", 
+    
+    "pages/index/index"
+  ],
+  "tabBar": {
+      "color":"#666666",
+      "selectedColor":"#f10b2e",
+    "list": [
+    
+      {
+      "pagePath": "pages/demo01/demo01",
+      "text": "统计",
+      "iconPath": "icons/sta1.png",
+      "selectedIconPath": "icons/sta.png"
+    },
+    
+    {
+      "pagePath": "pages/weather/weather",
+      "text": "天气",
+      "iconPath": "icons/weather.png",
+      "selectedIconPath": "icons/weather1.png"
+    },
+    {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath": "icons/music.png",
+      "selectedIconPath": "icons/music1.png"
+    }
+  ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#C0D9D9",
+    "navigationBarTitleText": "智能台灯",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

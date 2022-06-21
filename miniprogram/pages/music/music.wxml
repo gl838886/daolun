@@ -1,0 +1,50 @@
+<!--pages/music/music.wxml-->
+<!-- <view >
+      <image class="photo" src="https://pic.imgdb.cn/item/62a1a9ee09475431298e6e01.png"></image>
+ </view> -->
+ <view >
+      <image class="photo" mode="widthFix" src="https://pic.imgdb.cn/item/62a44e21094754312993e979.png"></image>
+ </view>
+ <view class="title">
+      <view>本次已经使用：</view>
+      <view class="box">{{h}}时</view>
+      <view class="box">{{m}}分</view>
+      <view class="box">{{s}}秒</view>
+      <view>距离计时结束：</view> 
+      <view class="box">{{hour}}时</view>
+      <view class="box">{{minute}}分</view>
+      <view class="box">{{second}}秒</view>
+      <!-- <view>将在{{hour-h}}时{{minute-m}}分{{second-s}}秒后开启休息提醒</view> -->
+ </view>
+
+ <view class="picker">
+  <view class="blank">请设置时间</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 50px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{hours}}" style="line-height: 50px">{{item}}时</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{minutes}}" style="line-height: 50px">{{item}}分</view>
+    </picker-view-column>
+    <picker-view-column> 
+      <view wx:for="{{seconds}}" style="line-height: 50px">{{item}}秒</view>
+    </picker-view-column>  
+  </picker-view>
+</view> 
+<view class="up">
+      <view  class="button1">
+         <button bindtap="taskStart" size="mini">开始计时</button>   
+      </view>
+      <view  class="button2">
+         <button bindtap="taskEnd" size="mini">计时结束</button>
+      </view>
+</view>
+<view class="up">
+   <view class="button3">
+      <button bindtap="audioStop" size="mini">音乐停止</button>
+   </view>
+   <view class="button4">
+      <button bindtap="upload" size="mini">上传铃声</button>
+   </view>
+</view>
+<view class="box1"></view>

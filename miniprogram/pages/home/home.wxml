@@ -1,0 +1,5 @@
+<view >
+      <image class="photo" mode="widthFix" src="https://pic.imgdb.cn/item/62a1a9ee09475431298e6e01.png"></image>
+ </view>
+ <canvas canvas-id="myCanvas" class="timeh"></canvas>
+ <!-- <view  class="colorset">现在是北京时间：{{data}}</view> -->
